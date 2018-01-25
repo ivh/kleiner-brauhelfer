@@ -2,7 +2,7 @@
 #define DEFINITIONEN_H
 
 // comment this line for release build
-#define DEBUG true
+//#define DEBUG true
 
 //Datenbankversion
 //V17 highGravityFaktor Prozentwert

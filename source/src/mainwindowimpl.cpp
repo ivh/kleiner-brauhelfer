@@ -7143,7 +7143,7 @@ void MainWindowImpl::FuelleBrauuebersicht() {
       MyTableWidgetItemNumeric *newItem6 = new MyTableWidgetItemNumeric();
       MyTableWidgetItemNumeric *newItem7 = new MyTableWidgetItemNumeric();
       MyTableWidgetItemNumeric *newItem8 = new MyTableWidgetItemNumeric();
-      MyTableWidgetItemNumeric *newItem9 = new MyTableWidgetItemNumeric();
+      QTableWidgetItem *newItem9 = new QTableWidgetItem("");
       MyTableWidgetItemNumeric *newItem10 = new MyTableWidgetItemNumeric();
       QTableWidgetItem *newItem11 = new QTableWidgetItem("");
       MyTableWidgetItemNumeric *newItem12 = new MyTableWidgetItemNumeric();
@@ -7302,8 +7302,12 @@ void MainWindowImpl::FuelleBrauuebersicht() {
         newItem8->setTextColor(QColor::fromRgb(0, 0, 0));
         newItem8->setBackground(ColorBrauUebersicht_Spalte2);
       }
+      // Hefe
+      FeldNr = query.record().indexOf("AuswahlHefe");
+      newItem9->setText(query.value(FeldNr).toString());
+      tableWidget_Brauuebersicht->setItem(i, 9, newItem9);
       // Kosten Pro Liter
-      FeldNr = query.record().indexOf("erg_Preis");
+      /* FeldNr = query.record().indexOf("erg_Preis");
       double kost = query.value(FeldNr).toDouble();
       kost = qRound(kost * 100);
       kost = kost / 100;
@@ -7316,7 +7320,7 @@ void MainWindowImpl::FuelleBrauuebersicht() {
       if (comboBox_AuswahlL2->currentText() == trUtf8("Kosten/Liter")) {
         newItem9->setTextColor(QColor::fromRgb(0, 0, 0));
         newItem9->setBackground(ColorBrauUebersicht_Spalte2);
-      }
+      } */
       // Alc Vol
       FeldNr = query.record().indexOf("erg_Alkohol");
       double abv = query.value(FeldNr).toDouble();

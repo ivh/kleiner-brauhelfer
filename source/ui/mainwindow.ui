@@ -27,7 +27,7 @@
        <string notr="true"/>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>6</number>
       </property>
       <widget class="QWidget" name="tab_Sudauswahl">
        <attribute name="title">
@@ -323,8 +323,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>872</width>
-             <height>897</height>
+             <width>875</width>
+             <height>883</height>
             </rect>
            </property>
            <layout class="QHBoxLayout" name="horizontalLayout_7">
@@ -1247,7 +1247,7 @@
                      <rect>
                       <x>0</x>
                       <y>0</y>
-                      <width>408</width>
+                      <width>416</width>
                       <height>125</height>
                      </rect>
                     </property>
@@ -1647,7 +1647,7 @@ p, li { white-space: pre-wrap; }
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>100</width>
+                          <width>88</width>
                           <height>100</height>
                          </rect>
                         </property>
@@ -1750,8 +1750,8 @@ p, li { white-space: pre-wrap; }
                       <rect>
                        <x>0</x>
                        <y>0</y>
-                       <width>402</width>
-                       <height>700</height>
+                       <width>395</width>
+                       <height>672</height>
                       </rect>
                      </property>
                      <layout class="QVBoxLayout" name="verticalLayout_15">
@@ -1843,8 +1843,8 @@ p, li { white-space: pre-wrap; }
                       <rect>
                        <x>0</x>
                        <y>0</y>
-                       <width>98</width>
-                       <height>28</height>
+                       <width>66</width>
+                       <height>16</height>
                       </rect>
                      </property>
                      <layout class="QVBoxLayout" name="verticalLayout_14" stretch="0,1">
@@ -1911,8 +1911,8 @@ p, li { white-space: pre-wrap; }
                       <rect>
                        <x>0</x>
                        <y>0</y>
-                       <width>98</width>
-                       <height>28</height>
+                       <width>66</width>
+                       <height>16</height>
                       </rect>
                      </property>
                      <layout class="QVBoxLayout" name="verticalLayout_80" stretch="0,1">
@@ -2973,7 +2973,7 @@ p, li { white-space: pre-wrap; }
                <x>0</x>
                <y>0</y>
                <width>347</width>
-               <height>464</height>
+               <height>439</height>
               </rect>
              </property>
              <property name="sizePolicy">
@@ -3380,7 +3380,7 @@ p, li { white-space: pre-wrap; }
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>1227</width>
+             <width>1229</width>
              <height>897</height>
             </rect>
            </property>
@@ -7997,8 +7997,8 @@ Diese Markierung kann nur mit einem Editor an der Suddatei selber rückgängig g
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>726</width>
-             <height>265</height>
+             <width>876</width>
+             <height>305</height>
             </rect>
            </property>
            <attribute name="label">
@@ -8192,8 +8192,8 @@ Diese Markierung kann nur mit einem Editor an der Suddatei selber rückgängig g
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>1227</width>
-             <height>816</height>
+             <width>1229</width>
+             <height>813</height>
             </rect>
            </property>
            <attribute name="label">
@@ -8493,8 +8493,8 @@ Diese Markierung kann nur mit einem Editor an der Suddatei selber rückgängig g
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>615</width>
-             <height>265</height>
+             <width>757</width>
+             <height>305</height>
             </rect>
            </property>
            <attribute name="label">
@@ -8724,7 +8724,7 @@ Diese Markierung kann nur mit einem Editor an der Suddatei selber rückgängig g
                <x>0</x>
                <y>0</y>
                <width>345</width>
-               <height>862</height>
+               <height>863</height>
               </rect>
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_124" stretch="0,10">
@@ -10019,7 +10019,7 @@ Diese Markierung kann nur mit einem Editor an der Suddatei selber rückgängig g
               </column>
               <column>
                <property name="text">
-                <string>Kosten / Liter</string>
+                <string>Hefe</string>
                </property>
               </column>
               <column>
@@ -11597,8 +11597,8 @@ Diese Markierung kann nur mit einem Editor an der Suddatei selber rückgängig g
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>1227</width>
-             <height>762</height>
+             <width>1229</width>
+             <height>757</height>
             </rect>
            </property>
            <attribute name="label">
@@ -11713,8 +11713,8 @@ Diese Markierung kann nur mit einem Editor an der Suddatei selber rückgängig g
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>400</width>
-             <height>120</height>
+             <width>483</width>
+             <height>118</height>
             </rect>
            </property>
            <attribute name="label">
@@ -11834,8 +11834,8 @@ Diese Markierung kann nur mit einem Editor an der Suddatei selber rückgängig g
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>400</width>
-             <height>120</height>
+             <width>483</width>
+             <height>118</height>
             </rect>
            </property>
            <attribute name="label">
@@ -11975,8 +11975,8 @@ Diese Markierung kann nur mit einem Editor an der Suddatei selber rückgängig g
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>262</width>
-             <height>120</height>
+             <width>483</width>
+             <height>118</height>
             </rect>
            </property>
            <attribute name="label">
@@ -12096,8 +12096,8 @@ Diese Markierung kann nur mit einem Editor an der Suddatei selber rückgängig g
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>531</width>
-             <height>316</height>
+             <width>620</width>
+             <height>341</height>
             </rect>
            </property>
            <attribute name="label">
@@ -12719,7 +12719,7 @@ Diese Markierung kann nur mit einem Editor an der Suddatei selber rückgängig g
      <x>0</x>
      <y>0</y>
      <width>1269</width>
-     <height>21</height>
+     <height>19</height>
     </rect>
    </property>
   </widget>
